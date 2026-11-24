@@ -33,9 +33,12 @@ export class DigestService {
     const mdPath = FileWriter.saveDigest(mdFilename, markdownContent);
     const htmlPath = FileWriter.saveDigest(htmlFilename, htmlContent);
 
-    // Also update digest-latest
-    FileWriter.saveDigest("digest-latest.md", markdownContent);
-    FileWriter.saveDigest("digest-latest.html", htmlContent);
+   // Also update latest digest
+FileWriter.saveDigest("digest-latest.md", markdownContent);
+FileWriter.saveDigest("digest-latest.html", htmlContent);
+
+// Create index.html for the Render homepage
+FileWriter.saveDigest("index.html", htmlContent);
 
     console.log(`[DigestService] ✅ Digest files successfully generated!`);
     console.log(` - Markdown: ${mdPath}`);
