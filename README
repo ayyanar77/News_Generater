@@ -1,0 +1,90 @@
+# 📰 News Digest Generator
+
+A News Digest Generator application designed to help users generate and organize news digests in one place.
+
+## 🚀 Project Overview
+
+The News Digest Generator is a software project built using Node.js and TypeScript. It provides a structured application for processing news-related information and generating digest output.
+
+## ✨ Features
+
+- News digest generation
+- Organized output management
+- TypeScript-based project structure
+- Modular source code
+- Dependency management using npm
+
+## 🛠️ Tech Stack
+
+- **Runtime:** Node.js
+- **Language:** TypeScript
+- **Package Manager:** npm
+- **Configuration:** TypeScript (`tsconfig.json`)
+
+## 📂 Project Structure
+
+```text
+News_Generator/
+│
+├── src/                # Application source code
+├── output/             # Generated output files
+├── package.json        # Project dependencies and scripts
+├── package-lock.json   # Dependency lock file
+├── tsconfig.json       # TypeScript configuration
+├── .gitignore          # Ignored files and folders
+└── README.md           # Project documentation
+```
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd News_Generator
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Build the project
+
+```bash
+npm run build
+```
+
+### 5. Run the application
+
+Use the start command defined in `package.json`.
+
+```bash
+npm start
+```
+
+## 📁 Output
+
+Generated news digest files are stored in the `output/` directory.
+
+## 🌐 Deployment
+
+This project is intended for deployment using [Render](https://render.com/).
+
+Deployment configuration will depend on the application's build and execution scripts.
+
+## 👨‍💻 Author
+
+**Ayyanar K**
+
+Computer Science and Engineering Student
+
+## 📄 License
+
+This project is available for educational and learning purposes.
